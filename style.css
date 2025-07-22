@@ -1,0 +1,71 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.status-badge {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.status-todo {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.status-inprogress {
+    background-color: #0dcaf0;
+    color: #000;
+}
+
+.status-done {
+    background-color: #198754;
+    color: #fff;
+}
+
+.task-actions {
+    white-space: nowrap;
+}
+
+.task-actions .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+    margin-right: 0.3rem;
+}
+
+@media (max-width: 768px) {
+    .table-responsive {
+        overflow-x: auto;
+    }
+    
+    .task-actions {
+        display: flex;
+        flex-direction: column;
+        gap: 0.3rem;
+    }
+    
+    .task-actions .btn {
+        margin-right: 0;
+        width: 100%;
+    }
+}
+
+tr.draggable {
+  transition: all 0.3s ease;
+}
+
+tr.draggable.dragging {
+    cursor: move;
+  opacity: 0.5;
+  background: #f8f9fa;
+}
+
+tr.drag-over {
+  border-top: 2px solid #0d6efd;
+}
+
+#tasksList tr {
+  background: white;
+  border-bottom: 1px solid #dee2e6;
+}
