@@ -16,6 +16,6 @@ A lightweight task management system with drag-and-drop functionality and persis
 - **Storage**: JSON file (or MySQL optional)
 
 ## 📸 Preview
-![Task Manager Interface](ss1.png)
-![Edit](ss2.png)
-![Status Edit](ss3.png)
+![Create Task](ss1.png)
+![Update Task](ss2.png)
+![Task Status](ss3.png)
